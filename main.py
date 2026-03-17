@@ -1,7 +1,6 @@
 from kivy.app import App
-from kivy.uix.label import Label
-class JarvisApp(App):
+from kivy.uix.button import Button
+class TestApp(App):
     def build(self):
-        return Label(text="Jarvis AI: Online\nBoss, model.gguf file folder ma halnuhos.")
-if __name__ == "__main__":
-    JarvisApp().run()
+        return Button(text='Hello Boss, Jarvis is coming!')
+TestApp().run()
